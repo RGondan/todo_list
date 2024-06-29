@@ -1,4 +1,20 @@
-let tareas = []
+let tareas = [
+    {
+        id : 1,
+        tarea : 'Tarea 01',
+        done : false,
+    },
+    {
+        id : 2,
+        tarea : 'Tarea 02',
+        done : true,
+    },
+    {
+        id : 3,
+        tarea : 'Tarea 03',
+        done : true,
+    }
+]
 
 document.body.onload = actualizar_lista
 
